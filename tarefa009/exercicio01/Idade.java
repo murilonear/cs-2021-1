@@ -1,12 +1,14 @@
-package exercicio01;
+package org.construcao.tarefa009.exercicio1;
 
 import java.util.Scanner;
 
 public class Idade {
     public static void main(String[] args) {
-        int anos, meses, dias, resultado;
+        int anos;
+        int meses;
+        int dias;
+        int resultado;
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Exercício 001");
         System.out.println("Favor informar a quantidade de anos");
         anos = scanner.nextInt();
         System.out.println("Favor informar a quantidade de meses");
@@ -14,6 +16,6 @@ public class Idade {
         System.out.println("Favor informar a quantidade de dias");
         dias = scanner.nextInt();
         resultado = (anos * 365) + (meses * 30) + dias;
-        System.out.println("Sua idade é de "+resultado+" dias");
+        System.out.println("Sua idade é de " + resultado + " dias");
     }
 }

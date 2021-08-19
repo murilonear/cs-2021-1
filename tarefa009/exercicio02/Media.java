@@ -1,8 +1,11 @@
-package exercicio02;
+package org.construcao.tarefa009.exercicio2;
 
 public class Media {
     public static void main(String[] args) {
-        int valorA, valorB, soma, media;
+        int valorA;
+        int valorB;
+        int soma;
+        int media;
         valorA = (8 + 9 + 7)/3;
         valorB = (4 + 5 + 6)/3;
         soma = valorA + valorB;

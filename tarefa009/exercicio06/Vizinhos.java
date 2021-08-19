@@ -1,4 +1,4 @@
-package exercicio06;
+package org.construcao.tarefa009.exercicio6;
 
 import java.util.Scanner;
 
