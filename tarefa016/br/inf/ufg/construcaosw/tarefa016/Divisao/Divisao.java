@@ -1,4 +1,4 @@
-package tarefa016.br.inf.ufg.br.tarefa016.Divisao;
+package tarefa016.br.inf.ufg.construcaosw.tarefa016.Divisao;
 
 import java.util.Scanner;
 
